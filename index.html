@@ -48,11 +48,17 @@
       to { opacity: 1; transform: translateY(0); }
     }
   </style>
-</head>
+</head><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 <body>
   <div class="card">
     <h1>
-  ∫<sub>0</sub><sup>∞</sup> (cos(x³) / √x) dx = ∛&lpar;(1 / π) Σ<sub>n=1</sub><sup>∞</sup> [(-1)ⁿ / n<sup>3/2</sup>]&rpar;
+\[
+\int_{0}^{\infty} \frac{\cos(x^3)}{\sqrt{x}} \, dx
+= \sqrt[3]{\frac{1}{\pi}\sum_{n=1}^{\infty} \frac{(-1)^n}{n^{3/2}}}
+\]
 </h1>
     <p>Hello, I'm Liam Jamez. I made this website because... why not.</p>
     <p>This page has no purpose. Zero. But it exists.</p>
